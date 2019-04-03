@@ -6,6 +6,6 @@ create table action_log
 	action_name varchar(100) not null,
 	entity_name varchar(100) not null,
 	author varchar(100),
-	entity_id bigint not null
+	entity_id bigint not null,
+	action_date timestamp NOT NULL
 );
-
