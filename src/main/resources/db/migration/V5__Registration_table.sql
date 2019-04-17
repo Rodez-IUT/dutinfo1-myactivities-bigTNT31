@@ -19,4 +19,3 @@ create index fki_registration_user
 
 create index fki_registration_activity
 	on registration (activity_id);
-
